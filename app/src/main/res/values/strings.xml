@@ -1,0 +1,37 @@
+<resources>
+    <string name="appname">TENANCY</string>
+    <string name="phone">Phone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="customer">Customer</string>
+    <string name="owner">Owner</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="signin">Sign In</string>
+    <string name="tenant">Tenant</string>
+    <string name="add_image">Add Image</string>
+    <string name="your_rooms">Your Rooms</string>
+    <string name="add_rooms">ADD ROOMS</string>
+    <string name="logout">LOGOUT</string>
+    <string name="add_new_room">Add New Room</string>
+    <string name="city">City</string>
+    <string name="minimum_stay">Minimum Booking Period</string>
+    <string name="maximum_stay">Maximum Booking Period</string>
+    <string name="rent_day">Rent/Day</string>
+    <string name="add_room">Add Room</string>
+    <string name="search_rooms">SEARCH ROOMS</string>
+    <string name="no_rooms_avaialable">No Rooms Avaialable</string>
+    <string name="room_name">Room name</string>
+    <string name="book">Book</string>
+    <string name="address">Address</string>
+    <string name="add_photo">ADD PHOTO</string>
+    <string name="status">Status</string>
+    <string name="payment">Payment</string>
+</resources>

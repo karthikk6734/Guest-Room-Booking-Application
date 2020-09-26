@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailsView">
+    <ImageView
+        android:id="@+id/photoDisplay"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/room_name"
+        />
+
+    <TextView
+        android:id="@+id/nameDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        />
+
+    <TextView
+        android:id="@+id/addressDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+    <TextView
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minimum_stay"
+        />
+
+    <TextView
+        android:id="@+id/minDaysDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maximum_stay"
+        />
+    <TextView
+        android:id="@+id/maxDaysDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rent_day"
+        />
+
+    <TextView
+        android:id="@+id/rentDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        />
+
+    <TextView
+        android:id="@+id/phoneDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+    <TextView
+        android:layout_margin="5dp"
+        android:background="@color/buttonColor"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        />
+
+    <TextView
+        android:id="@+id/statusDisplay"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/bookNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/buttonColor"
+        android:text="Book Now"
+        tools:visibility="invisible" />
+</LinearLayout>

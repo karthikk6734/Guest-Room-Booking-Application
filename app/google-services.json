@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1091075723443",
+    "firebase_url": "https://bookinguests-73d14.firebaseio.com",
+    "project_id": "bookinguests-73d14",
+    "storage_bucket": "bookinguests-73d14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091075723443:android:f20ec09a1f8058c87ea0c6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091075723443-r4im6j4d1ncvt1t2a15tro3tci28hvdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnKAmVZ5OgkzYapJTdNadzNvDwBkWm49U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091075723443-r4im6j4d1ncvt1t2a15tro3tci28hvdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
