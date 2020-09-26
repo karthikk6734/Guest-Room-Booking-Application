@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ProfilePages.UserPage"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/user_ProfileImg"
+            android:layout_width="200dp"
+            android:layout_height="182dp"
+            android:src="@drawable/logoorange" />
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/signUp_name"
+                android:padding="2px"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_softcorner"
+                android:backgroundTint="@color/buttonColor"
+                android:text="@string/full_name" />
+
+            <TextView
+                android:id="@+id/user_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:padding="2px"
+                android:id="@+id/signUp_Email"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_softcorner"
+                android:backgroundTint="@color/buttonColor"
+                android:text="@string/e_mail" />
+
+            <TextView
+                android:id="@+id/user_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:padding="2px"
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_softcorner"
+                android:backgroundTint="@color/buttonColor"
+                android:text="@string/phone" />
+
+            <TextView
+                android:id="@+id/user_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/user_BookedRooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_rooms"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/buttonColor"
+                android:background="@drawable/background_softcorner"/>
+            <Button
+                android:id="@+id/user_SearchRooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search_rooms"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/buttonColor"
+                android:background="@drawable/background_softcorner"/>
+            <Button
+                android:id="@+id/user_LogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/buttonColor"
+                android:background="@drawable/background_softcorner"/>
+        </LinearLayout>
+</LinearLayout>
