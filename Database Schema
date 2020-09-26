@@ -1,0 +1,57 @@
+Database : Firebase Database
+Storage  : Firebase Storage
+
+*The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
+*All Firebase Realtime Database data is stored as JSON objects. You can think of the database as a cloud-hosted JSON tree. Unlike a SQL database, there are no tables or records. When you add data to the JSON tree, it becomes a node in the existing JSON structure with an associated key. You can provide your own keys, such as user IDs or semantic names, or they can be provided for you using push().
+
+Example Schema : 
+JSON Format
+{
+  "Owner" : {
+    "PlpbgRnOYfdIOFsb8fZ1E6ncqib2" : {
+      "email" : "karthikk6734@gmail.com",
+      "name" : "KARTHIKEYAN",
+      "password" : "karthi",
+      "phone" : "9688228266"
+    }
+  },
+  "Rooms" : {
+    "PlpbgRnOYfdIOFsb8fZ1E6ncqib2" : {
+      "karthi" : {
+        "address" : "ganeshapuram",
+        "city" : "coimbatore",
+        "maxBook" : "10",
+        "minBook" : "3",
+        "rent" : "500",
+        "roomName" : "karthi",
+        "status" : "UnBooked"
+      },
+      "keyans home" : {
+        "address" : "Anna nagar, kattampatty (po)",
+        "city" : "coimbatore",
+        "maxBook" : "30",
+        "minBook" : "5",
+        "rent" : "600",
+        "roomName" : "keyans home",
+        "status" : "UnBooked"
+      },
+      "new room" : {
+        "address" : "J's colony",
+        "city" : "coimbatore",
+        "maxBook" : "30",
+        "minBook" : "5",
+        "rent" : "500",
+        "roomName" : "new room",
+        "status" : "UnBooked"
+      }
+    }
+  },
+  "Tenant" : {
+    "xBsmDKhr7zTjYnzAVSnvb9VjvO83" : {
+      "email" : "17tucs101@skct.edu.in",
+      "name" : "Karthi",
+      "password" : "karthu",
+      "phone" : "8072241378"
+    }
+  }
+}
